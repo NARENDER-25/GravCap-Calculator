@@ -1,5 +1,8 @@
 import mendeleev
-
+__author__ = "Narender Kumar, Department of Physics, United Arab Emirates University"
+__email__ = "bansalnarender25@gmail.com"
+__version__ = "24.0.0"
+__description__ = "Script for calculating the weight percent of H2 molecules on a given substrate based on user input."
 def get_atomic_weight(element):
     try:
         return mendeleev.element(element).atomic_weight
@@ -9,7 +12,7 @@ def get_atomic_weight(element):
 
 def main():
     num_H2_molecules = int(input("Enter the number of H2 molecules on the substrate : "))
-    num_elements = int(input("Enter the total number atomic species in your substrate (if your substrate include BO then total no. of species should be 2. please exclude H2 molecule here) : "))
+    num_elements = int(input("Enter the total number atomic species in your substrate (if your substrate include B,O then total no. of species should be 2. please exclude H2 molecule here) : "))
     substrate_molar_mass = 0
 
     for i in range(num_elements):
