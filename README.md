@@ -1,4 +1,4 @@
-# GravCap - Gravimetric Storage Capacity Calculator.
+# GravCap - Gravimetric Storage Capacity Calculator
 
 GravCap is a Python tool designed to calculate the gravimetric storage capacity of hydrogen molecules adsorbed on the materials. This utility determines the theoretical weight-based storage capacity.
 
