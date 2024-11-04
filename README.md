@@ -20,8 +20,8 @@ Once installed, you can run the GravCap tool from the command line:
 GravCap
 ```
 
-### Example Input and Output
-1. Run the command `GravCap`.
+### Example Input 
+1. Run the command `GravCap`
 2. Enter the number of H2 molecules:
    Enter the number of H2 molecules: 
 3. Enter the number of atomic species in your system:
