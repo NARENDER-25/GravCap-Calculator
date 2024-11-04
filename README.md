@@ -31,7 +31,7 @@ GravCap
    Enter the total number of atoms for species 1
    Enter the atomic symbol for element 2: atomic symbol of species 2
    Enter the total number of atoms for species 2
-5. The script will calculate and display the molar mass and weight percent of H2.
+5. The script will calculate the weight percent of H2.
 
 ## Author
 - **Narender Kumar**
