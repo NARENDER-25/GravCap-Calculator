@@ -1,5 +1,10 @@
 import mendeleev
 
+__author__ = "Narender Kumar, Department of Physics, United Arab Emirates University"
+__email__ = "bansalnarender25@gmail.com"
+__version__ = "24.0.0"
+__description__ = "Script for calculating the weight percent of H2 molecules on a given substrate based on user input."
+
 def get_atomic_weight(element):
     try:
         return mendeleev.element(element).atomic_weight
