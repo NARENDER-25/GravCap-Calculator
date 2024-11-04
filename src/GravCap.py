@@ -25,7 +25,7 @@ def main():
     molar_mass_H2 = num_H2_molecules * (2 * get_atomic_weight('H'))
     molar_mass_total = substrate_molar_mass + molar_mass_H2
     wt_percent_H2 = (molar_mass_H2 / molar_mass_total) * 100
-    print(f"\\nWeight percent of {num_H2_molecules} H2 molecules: {wt_percent_H2:.2f}%")
+    print(f"Weight percent of {num_H2_molecules} H2 molecules on substrate is: {wt_percent_H2:.2f}%")
 
 if __name__ == "__main__":
     main()
